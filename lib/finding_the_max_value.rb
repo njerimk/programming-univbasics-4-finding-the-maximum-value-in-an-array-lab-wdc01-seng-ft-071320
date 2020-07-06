@@ -7,7 +7,7 @@ def find_max_value(array)
     end
     counter += 1
   end
-  puts max_value
+  max_value
 end
 
 array=[0,1,1,4,3,2,3,2,2,5,2,3,1]
