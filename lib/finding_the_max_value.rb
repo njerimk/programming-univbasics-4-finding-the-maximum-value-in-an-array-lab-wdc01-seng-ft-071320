@@ -3,6 +3,7 @@ def find_max_value(array)
   counter2=1
   while counter < array.length do
     counter += 1
+  end
   if array[counter]>array[counter2] 
     puts array[counter]
   elseif array[counter2]>array[counter]
