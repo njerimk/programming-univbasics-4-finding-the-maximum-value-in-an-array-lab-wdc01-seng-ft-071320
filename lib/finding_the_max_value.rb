@@ -2,8 +2,12 @@ def find_max_value(array)
   counter=0
   counter2=1
   while counter < array.length do
-    array[counter]
+    puts array
     counter += 1
+  if array[counter] > array[counter2] do
+    puts array[counter]
+  else 
+    puts array[counter]
   end
 end
 
