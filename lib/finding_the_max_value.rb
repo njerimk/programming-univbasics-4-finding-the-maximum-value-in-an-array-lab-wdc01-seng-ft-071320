@@ -6,8 +6,10 @@ def find_max_value(array)
     counter += 1
   if array[counter] > array[counter2] do
     puts array[counter]
+    counter +=1
   else 
     puts array[counter2]
+    counter2 +=1
   end
 end
 
