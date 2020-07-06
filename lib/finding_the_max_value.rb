@@ -10,7 +10,7 @@
  # max_value
 #end
 
-def fin_max_value(array)
+def find_max_value(array)
   counter= 0
   counter2=1
   while counter < array.length do
