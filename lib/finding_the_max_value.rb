@@ -1,11 +1,9 @@
-def find_max_value(array)
+def find_max_value(array, max_value)
   counter=0
-  counter2=1
   while counter < array.length do
-    puts array
+    array[counter]==max_value
+    puts max_value
     counter += 1
-    counter2 +=1
-  
   end
 end
 
