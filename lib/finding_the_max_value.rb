@@ -7,7 +7,7 @@ def find_max_value(array)
   if array[counter] > array[counter2] do
     puts array[counter]
   else 
-    puts array[counter]
+    puts array[counter2]
   end
 end
 
