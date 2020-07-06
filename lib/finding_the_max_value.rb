@@ -8,4 +8,5 @@ def find_max_value(array, max_value)
 end
 
 array=[1,5,4,2,3,3,4,2,1]
-find_max_value(array)
+max_value= 5
+find_max_value(array,max_value)
